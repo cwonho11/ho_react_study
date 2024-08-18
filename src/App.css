@@ -1,0 +1,21 @@
+body {
+    background: url('https://miro.medium.com/v2/resize:fit:1400/1*JshH8kt1t57nDMsPHsqRJA.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weather-box {
+    border: 3px solid white;
+    padding: 100px;
+    border-radius: 30px;
+    background-color: rgba(83, 192, 219, 0.75);
+    color: white;
+}
