@@ -1,0 +1,56 @@
+.login-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.login-button-text {
+    margin-left: 10px;
+}
+
+.navbar-area {
+    margin-bottom: 20px;
+}
+.nav-section {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-area {
+    display: flex;
+}
+.menu-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: auto;
+}
+.menu-list li {
+    padding: 10px;
+}
+.search-area {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #212020;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.search-area input {
+    border: none;
+    outline: none;
+    padding: 15px 5px;
+    font-size: 15px;    
+}
+
+.card-section .fix {    /* 이미지 hover 시 영역 벗어나지 않게 하기 위해 선언 */
+    margin: 0px auto;
+    overflow:hidden;
+}
+.card-section > div > img {
+    max-width: 100%;
+    transition: all 0.2s linear; 
+}
+.card-section > div > img:hover {       /* 이미지 확대 효과 */ 
+    transform: scale(1.2);    
+}
