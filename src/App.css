@@ -15,10 +15,19 @@
 .nav-section {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .menu-area {
+    /* 기본 스타일 */
     display: flex;
+}
+  /* 반응형 스타일 */
+@media (max-width: 768px) {
+    .menu-area {
+        /* 모바일 화면용 스타일 조정 */
+        
+    }
 }
 .menu-list {
     display: flex;
@@ -46,6 +55,7 @@
 .card-section .fix {    /* 이미지 hover 시 영역 벗어나지 않게 하기 위해 선언 */
     margin: 0px auto;
     overflow:hidden;
+    cursor: pointer;
 }
 .card-section > div > img {
     max-width: 100%;
@@ -53,4 +63,18 @@
 }
 .card-section > div > img:hover {       /* 이미지 확대 효과 */ 
     transform: scale(1.2);    
+}
+
+.product-img {
+    display: flex;
+    justify-content: flex-end;
+}
+.product-info {
+    font-size: 20px;
+}
+.product-info div {
+    margin: 15px 0;
+}
+.product-item-list {
+    margin: 0 !important;
 }
