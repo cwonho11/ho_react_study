@@ -8,7 +8,7 @@ const api = axios.create({
         Accept: 'application/json',
         Authorization: `Bearer ${API_KEY}`
     }
-  });
+});
 
   // 요청 인터셉터 추가하기
 axios.interceptors.request.use(function (config) {
